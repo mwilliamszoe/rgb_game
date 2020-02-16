@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  height: 20vh;
+  width: 100vw;
+  background-color: blue;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  /*   border: 5px solid red; */
+  height: 75vh;
+  width: 80vh;
+  justify-content: space-around;
+  align-content: space-around;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 30% 30% 30%;
+
+}
+
+.box {
+  border: 2px solid pink;
+  border-radius: 5%;
+}
